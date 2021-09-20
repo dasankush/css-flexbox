@@ -1,0 +1,31 @@
+attributes:
+
+
+display:flex;
+box-sizing: border-box;
+flex-direction: row || column || column-reverse || row-reverse; //axis
+justify-content: center || space-between || space-around ||
+                 space-evenly ||flex-start || flex-end;
+
+align-items: center  || flex-start || flex-end || stretch(default) 
+            || baseline;
+
+align-self: flex-start || flex-end || stretch || center || space-between
+            || space-evenly || space-around;
+
+order: 1 || 2 || 3;     // individual items
+
+flex-grow: 1;           //utilization of maximum space and 
+                        is relative to each other
+
+flex-basis: 10px || 75%;       // utilization of space according to 
+                                percentage or pixel based values
+flex-shrink: 0;
+
+flex-wrap: wrap;                //wraps the items 
+
+align-content: flex-start || flex-end || stretch || center || space-between
+            || space-evenly || space-around;
+
+in row main axis is x-axis
+in column main axis is y-axis
